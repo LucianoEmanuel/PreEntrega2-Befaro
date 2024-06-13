@@ -1,16 +1,17 @@
-nav{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+div{
+    .tittleis{
+        margin-top: 50px;
+        margin-right: 5%;
+    }
 }
 #menu a{
-    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
     font-weight: bold;
     color: black;
 }
 .carousel-inner{
 max-height: 39rem;
-}
-p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .form1{
     margin-left: 30%;
@@ -20,10 +21,6 @@ p{
     margin-left: 30%;
     margin-top: 35px;    
 }
-.tittleis{
-    margin-top: 50px;
-    margin-right: 5%;
-}
 .img3{
     margin-top: 30px;
 }
@@ -32,9 +29,6 @@ hr{
 }
 div .col{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
 }
 footer{
     margin-top: 140px;
@@ -57,4 +51,25 @@ h3{
     margin-top: 20px;
     margin-left: 5px;
 }
-
+header{
+        h1{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }   
+}
+@keyframes change-color{
+    from {
+        background: white;
+    }
+    to {
+        background: red;
+    }
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .animacion{
+        animation-name: change-color;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;    
+}
+}

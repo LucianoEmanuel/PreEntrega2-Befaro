@@ -1,0 +1,86 @@
+div .tittleis {
+  margin-top: 50px;
+  margin-right: 5%;
+}
+
+#menu a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.carousel-inner {
+  max-height: 39rem;
+}
+
+.form1 {
+  margin-left: 30%;
+  margin-top: 20px;
+}
+
+.form2 {
+  margin-left: 30%;
+  margin-top: 35px;
+}
+
+.img3 {
+  margin-top: 30px;
+}
+
+hr {
+  color: red;
+}
+
+div .col {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+footer {
+  margin-top: 140px;
+  background-color: rgb(175, 36, 36);
+  text-align: center;
+}
+
+.iconos {
+  margin-bottom: 0px;
+  font-size: 26px;
+}
+
+.iconos1 {
+  margin-bottom: 0px;
+  font-size: 26px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+.boton {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+header h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+@keyframes change-color {
+  from {
+    background: white;
+  }
+  to {
+    background: red;
+  }
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p .animacion {
+  animation-name: change-color;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/*# sourceMappingURL=styles.css.map */
