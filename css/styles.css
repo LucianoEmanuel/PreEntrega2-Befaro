@@ -82,5 +82,7 @@ p .animacion {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-
+iframe {
+  padding: 10px;
+}
 /*# sourceMappingURL=styles.css.map */
