@@ -1,11 +1,13 @@
-div{
-    .tittleis{
-        margin-top: 50px;
-        margin-right: 5%;
-    }
+$fuenteTitulo:"Roboto", sans-serif;
+$colorPrimario:rgba(223, 49, 49, 0.877);
+$colorSecundario:white;
+$fuenteTextos:"times new roman", sans-serif;
+
+body{
+    background-image: url(bg.jpg);
 }
 #menu a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $fuenteTextos, sans-serif;
     font-size: 15px;
     font-weight: bold;
     color: black;
@@ -25,16 +27,22 @@ max-height: 39rem;
     margin-top: 30px;
 }
 hr{
-    color: red;
+    color: $colorPrimario;
 }
 div .col{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: $fuenteTextos, sans-serif;
 }
 footer{
     margin-top: 140px;
-    background-color: rgb(175, 36, 36);
+    background-color: $colorPrimario;
     text-align: center;
-}   
+                    div{
+                        a{
+                        color: rgb(0, 0, 0);
+                        text-align: center;
+}
+}  
+}
 .iconos{
     margin-bottom: 0px;   
     font-size: 26px;
@@ -53,15 +61,15 @@ h3{
 }
 header{
         h1{
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-family: $fuenteTitulo, sans-serif;
         }   
 }
 @keyframes change-color{
     from {
-        background: white;
+        background: $colorSecundario;
     }
     to {
-        background: red;
+        background: $colorPrimario;
     }
 }
 p{
@@ -72,4 +80,15 @@ p{
         animation-timing-function: linear;
         animation-iteration-count: infinite;    
 }
+}
+h2{
+    background-color: $colorPrimario;
+    margin-top: 4px;
+    text-align: center;
+}
+.tittleis{
+    margin-right: 50px;
+}
+.tittler{
+    margin-right: 50px;
 }

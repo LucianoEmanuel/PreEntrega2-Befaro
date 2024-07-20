@@ -1,10 +1,9 @@
-div .tittleis {
-  margin-top: 50px;
-  margin-right: 5%;
+body {
+  background-image: url(bg.jpg);
 }
 
 #menu a {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "times new roman", sans-serif, sans-serif;
   font-size: 15px;
   font-weight: bold;
   color: black;
@@ -29,16 +28,20 @@ div .tittleis {
 }
 
 hr {
-  color: red;
+  color: rgba(223, 49, 49, 0.877);
 }
 
 div .col {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "times new roman", sans-serif, sans-serif;
 }
 
 footer {
   margin-top: 140px;
-  background-color: rgb(175, 36, 36);
+  background-color: rgba(223, 49, 49, 0.877);
+  text-align: center;
+}
+footer div a {
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
@@ -62,7 +65,7 @@ h3 {
 }
 
 header h1 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
 }
 
 @keyframes change-color {
@@ -70,7 +73,7 @@ header h1 {
     background: white;
   }
   to {
-    background: red;
+    background: rgba(223, 49, 49, 0.877);
   }
 }
 p {
@@ -82,7 +85,19 @@ p .animacion {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-iframe {
-  padding: 10px;
+
+h2 {
+  background-color: rgba(223, 49, 49, 0.877);
+  margin-top: 4px;
+  text-align: center;
 }
+
+.tittleis {
+  margin-right: 50px;
+}
+
+.tittler {
+  margin-right: 50px;
+}
+
 /*# sourceMappingURL=styles.css.map */
